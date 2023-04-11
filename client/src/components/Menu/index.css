@@ -1,0 +1,46 @@
+.menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 146px;
+}
+.menu .post {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.menu .post img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+.menu .post .content {
+  gap: 1px;
+}
+.menu .post .content h1 {
+  font-size: 12px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu .post .content p {
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu .post .content button {
+  width: max-content;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid teal;
+  color: teal;
+  font-size: 10px;
+}
+.menu .post .content button:hover {
+  background-color: #b9e7e7;
+}
+/*# sourceMappingURL=./index.css.map */

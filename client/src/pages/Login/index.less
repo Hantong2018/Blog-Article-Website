@@ -1,0 +1,47 @@
+@lightgreen: #b9e7e7;
+
+.auth{
+  display: flex;
+  flex-direction: column;
+  // align items vertically in center
+  align-items: center;
+  // align items horizontally in center
+  justify-content: center;
+  // 100% viewport height
+  height: 100vh;
+  background-color: @lightgreen;
+
+  h1{
+    font-size: 30px;
+    color: teal;
+    margin-bottom: 10px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    gap: 20px;
+    width: 200px;
+
+    input{
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid gray;
+    }
+
+    button{
+      padding: 10px;
+      border: none;
+      background-color: teal;
+      cursor: pointer;
+      color: white;
+    }
+
+    span{
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}

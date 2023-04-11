@@ -1,0 +1,59 @@
+.write {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.write .content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.write .content input {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.write .content .editorContainer {
+  height: 300px;
+}
+.write .content .editorContainer .editor {
+  height: 100%;
+}
+.write .menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.write .menu .item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 10px;
+  gap: 10px;
+  font-size: 14px;
+}
+.write .menu .item h1 {
+  font-size: 20px;
+}
+.write .menu .item .file {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+.write .menu .item .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.write .menu .item .buttons button {
+  padding: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid teal;
+  color: teal;
+}
+.write .menu .item .buttons button:hover {
+  background-color: #b9e7e7;
+}
+/*# sourceMappingURL=./index.css.map */
